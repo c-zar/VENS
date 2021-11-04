@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.png" />
+    <title>Ven Studios</title>
+
+		
+
+		<link rel="modulepreload" href="/VENS/app/start-7cb9c66a.js">
+		<link rel="modulepreload" href="/VENS/app/chunks/vendor-6bf17c97.js">
+		<link rel="modulepreload" href="/VENS/app/pages/__layout.svelte-39fb8c31.js">
+		<link rel="modulepreload" href="/VENS/app/chunks/info-844534dd.js">
+		<link rel="modulepreload" href="/VENS/app/pages/projects.svelte-49882a73.js">
+		<link rel="modulepreload" href="/VENS/app/chunks/PostPreview-70bea5d0.js">
+		<link rel="modulepreload" href="/VENS/app/chunks/get-posts-08df5eed.js">
+		<link rel="stylesheet" href="/VENS/app/assets/start-d977ffc4.css">
+		<link rel="stylesheet" href="/VENS/app/assets/pages/__layout.svelte-09a93f09.css">
+		<link rel="stylesheet" href="/VENS/app/assets/Hero.svelte_svelte&type=style&lang-59c63c1c.css">
+
+		<script type="module">
+			import { start } from "/VENS/app/start-7cb9c66a.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"/VENS","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/VENS/app/pages/__layout.svelte-39fb8c31.js"),
+						import("/VENS/app/pages/projects.svelte-49882a73.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "\u002Fprojects",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+    <script>
+      const storageValue = JSON.parse(localStorage.getItem('prefersLight'))
+      const prefersLight = storageValue
+        ? Boolean(storageValue)
+        : window?.matchMedia('(prefers-color-scheme: light)').matches
+
+      localStorage.setItem('prefersLight', prefersLight)
+
+      // default to dark mode unless explicitly set preference to light
+      if (prefersLight) {
+        document.querySelector('html').classList.remove('dark')
+      }
+    </script>
+  </head>
+  <body class="transition-colors duration-100 bg-gray-100 dark:bg-gray-900">
+    <div id="svelte">
+
+
+
+
+<div class="flex flex-col min-h-screen"><div class="mx-auto flex flex-col md:flex-row flex-grow w-full"><div class="flex h-16 px-4 py-2 justify-between items-center md:hidden"><h1 class="text-2xl font-bold text-gray-800 dark:text-white"><a href="/">Ven Studios</a></h1>
+  <div class="flex h-16 px-4 py-2 justify-between items-center"><h1 class="text-md px-4 font-bold text-gray-800 dark:text-white"><a href="/about">About</a>
+      </h1><h1 class="text-md px-4 font-bold text-gray-800 dark:text-white"><a href="/projects">Projects</a>
+      </h1></div></div>
+
+
+<div class="px-4 py-2 items-center hidden flex-col bg-black justify-start md:flex"><h1 class="text-2xl font-bold text-gray-800 dark:text-white flex flex-nowrap"><a div class="whitespace-nowrap" href="/">Ven Studios</a></h1>
+  <div class="flex flex-col h-16 pt-6 justify-between w-full"><h1 class="text-md font-bold text-gray-800 dark:text-white"><a href="/about">About</a>
+      </h1><h1 class="text-md font-bold text-gray-800 dark:text-white"><a href="/projects">Projects</a>
+      </h1></div></div>
+    <main class="flex flex-col w-full flex-grow prose prose-sm sm:prose lg:prose-lg dark:prose-dark"><div class="flex flex-col flex-grow"><div class="flex-grow divide-y divide-gray-300 dark:divide-gray-700 p-10"><div class="py-8 first:pt-0"><div><h2 class="!mt-0 !mb-1"><a href="/projects/SEKUSHI HOUSE">Sekushī House (セクシー)</a></h2>
+    <time>November 4, 2021</time>
+    
+    </div>
+  <div><!-- HTML_TAG_START --><p>The Sekushi House is the first ever all-female anime style avatar collection on the Ethereum blockchain. The collection consists of 10,000 randomly generated digital collectibles of various rarity. There are up to XXX traits and a combination of XXX attributes. For example, there are XXX skin tones,...</p><!-- HTML_TAG_END --></div>
+  <div class="flex justify-end w-full"><a href="/projects/SEKUSHI HOUSE" class="block px-3 py-1 !text-gray-800 dark:!text-gray-300 dark:!text-opacity-90 bg-gray-300 dark:bg-gray-800 rounded-md !no-underline"><div class="flex items-center space-x-2">
+    <span>Read More</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></div></a></div></div><div class="py-8 first:pt-0"><div><h2 class="!mt-0 !mb-1"><a href="/projects/getting-started">Getting Started</a></h2>
+    <time>September 9, 2021</time>
+    
+    </div>
+  <div><!-- HTML_TAG_START --><p>Thanks for checking out my blog template. It’s based on the blog I built for my own <a href="https://mattjennings.io" rel="nofollow">website</a> and I hope this is a good starting point for you to start yours.</p><!-- HTML_TAG_END --></div>
+  <div class="flex justify-end w-full"><a href="/projects/getting-started" class="block px-3 py-1 !text-gray-800 dark:!text-gray-300 dark:!text-opacity-90 bg-gray-300 dark:bg-gray-800 rounded-md !no-underline"><div class="flex items-center space-x-2">
+    <span>Read More</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></div></a></div></div></div></div></main></div></div>
+
+
+
+			
+		</div>
+
+    <!-- this fixes a bug in chrome where animations trigger from unstyled to styled content on page load -->
+    <!-- https://stackoverflow.com/a/42969257/6342734 -->
+    <!-- prettier-ignore -->
+    <script> </script>
+  </body>
+</html>

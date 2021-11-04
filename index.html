@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.png" />
+    <title>Ven Studios</title>
+
+		
+
+		<link rel="modulepreload" href="/VENS/app/start-7cb9c66a.js">
+		<link rel="modulepreload" href="/VENS/app/chunks/vendor-6bf17c97.js">
+		<link rel="modulepreload" href="/VENS/app/pages/__layout.svelte-39fb8c31.js">
+		<link rel="modulepreload" href="/VENS/app/chunks/info-844534dd.js">
+		<link rel="modulepreload" href="/VENS/app/pages/index.svelte-fc41063a.js">
+		<link rel="modulepreload" href="/VENS/app/chunks/PostPreview-70bea5d0.js">
+		<link rel="modulepreload" href="/VENS/app/chunks/get-posts-08df5eed.js">
+		<link rel="stylesheet" href="/VENS/app/assets/start-d977ffc4.css">
+		<link rel="stylesheet" href="/VENS/app/assets/pages/__layout.svelte-09a93f09.css">
+		<link rel="stylesheet" href="/VENS/app/assets/Hero.svelte_svelte&type=style&lang-59c63c1c.css">
+
+		<script type="module">
+			import { start } from "/VENS/app/start-7cb9c66a.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"/VENS","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/VENS/app/pages/__layout.svelte-39fb8c31.js"),
+						import("/VENS/app/pages/index.svelte-fc41063a.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "\u002F",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+    <script>
+      const storageValue = JSON.parse(localStorage.getItem('prefersLight'))
+      const prefersLight = storageValue
+        ? Boolean(storageValue)
+        : window?.matchMedia('(prefers-color-scheme: light)').matches
+
+      localStorage.setItem('prefersLight', prefersLight)
+
+      // default to dark mode unless explicitly set preference to light
+      if (prefersLight) {
+        document.querySelector('html').classList.remove('dark')
+      }
+    </script>
+  </head>
+  <body class="transition-colors duration-100 bg-gray-100 dark:bg-gray-900">
+    <div id="svelte">
+
+
+
+
+<div class="flex flex-col min-h-screen"><div class="mx-auto flex flex-col md:flex-row flex-grow w-full"><div class="flex h-16 px-4 py-2 justify-between items-center md:hidden"><h1 class="text-2xl font-bold text-gray-800 dark:text-white"><a href="/">Ven Studios</a></h1>
+  <div class="flex h-16 px-4 py-2 justify-between items-center"><h1 class="text-md px-4 font-bold text-gray-800 dark:text-white"><a href="/about">About</a>
+      </h1><h1 class="text-md px-4 font-bold text-gray-800 dark:text-white"><a href="/projects">Projects</a>
+      </h1></div></div>
+
+
+<div class="px-4 py-2 items-center hidden flex-col bg-black justify-start md:flex"><h1 class="text-2xl font-bold text-gray-800 dark:text-white flex flex-nowrap"><a div class="whitespace-nowrap" href="/">Ven Studios</a></h1>
+  <div class="flex flex-col h-16 pt-6 justify-between w-full"><h1 class="text-md font-bold text-gray-800 dark:text-white"><a href="/about">About</a>
+      </h1><h1 class="text-md font-bold text-gray-800 dark:text-white"><a href="/projects">Projects</a>
+      </h1></div></div>
+    <main class="flex flex-col w-full flex-grow prose prose-sm sm:prose lg:prose-lg dark:prose-dark">
+<div class="flex flex-col flex-grow px-4 max-w-4xl mx-auto"><div class="flex-grow divide-y divide-gray-300 dark:divide-gray-700 p-10"><div><h1>What is Ven Studios?</h1>
+      <p>At Ven Studio, we are convinced that the digital space is an invaluable tool for bringing
+        transparency and equity to the art market. We partner with artists, developers and creative
+        managers to release their NFT art onto the blockchain. Our team is working around the clock,
+        committing their energy to promoting Ven Studio Collections in different platform to
+        maximize traffic and increase audience. Our artist come from 3rd world countries and we
+        collaborate with them along with our software engineers and programmers to promote their
+        underrated art onto the blockchain. In showcasing Their Collections around the world, we
+        also hope to allow art lovers and collectors alike to explore new artistic horizons, to
+        embrace new cultures and to be inspired by the works of talented artists that they never
+        would have come across if it wasn&#39;t for Ven Studios.
+      </p>
+      <p>The NFT market, like many tech-centric areas, has traditionally been dominated by men, and a
+        women-led project was a much-welcomed change. While the rise of blockchain-based digital
+        artwork is notable, many of the artists responsible for creating today’s most sought after
+        NFTs are men. While the ratio of male to female NFT artists remains unclear, statistics show
+        that there are considerably less women than men involved in the overall crypto sector. A
+        recent survey conducted by cryptocurrency exchange Gemini found that just 26% of females
+        hold crypto. We are a proud Female-led NFT Studio. With out team consisting of 80% women in
+        the field of Technology, Fine Arts and Management. Our goal is to increase female engagement
+        in crypto
+      </p>
+      <p>“Women belong in all places where decisions are being made. It shouldn’t be that women are
+        the exception” — Ruth Bader-Ginsburg.
+      </p></div>
+    <div class="py-8 first:pt-0"><div><h2 class="!mt-0 !mb-1"><a href="/posts/getting-started">Getting Started</a></h2>
+    <time>September 9, 2021</time>
+    
+    </div>
+  <div><!-- HTML_TAG_START --><p>Thanks for checking out my blog template. It’s based on the blog I built for my own <a href="https://mattjennings.io" rel="nofollow">website</a> and I hope this is a good starting point for you to start yours.</p><!-- HTML_TAG_END --></div>
+  <div class="flex justify-end w-full"><a href="/posts/getting-started" class="block px-3 py-1 !text-gray-800 dark:!text-gray-300 dark:!text-opacity-90 bg-gray-300 dark:bg-gray-800 rounded-md !no-underline"><div class="flex items-center space-x-2">
+    <span>Read More</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></div></a></div></div><div class="py-8 first:pt-0"><div><h2 class="!mt-0 !mb-1"><a href="/posts/make-a-sitemap-with-sveltekit">Make a Sitemap with Sveltekit</a></h2>
+    <time>August 20, 2021</time>
+    
+    </div>
+  <div><!-- HTML_TAG_START --><p>If you want to rank on Google (and other search engines) you need to be able to tell the world what your site consists of. A sitemap is used by the Googlebot, BingBot, DuckDuckBot and other search engines to tell them what pages are available.</p><!-- HTML_TAG_END --></div>
+  <div class="flex justify-end w-full"><a href="/posts/make-a-sitemap-with-sveltekit" class="block px-3 py-1 !text-gray-800 dark:!text-gray-300 dark:!text-opacity-90 bg-gray-300 dark:bg-gray-800 rounded-md !no-underline"><div class="flex items-center space-x-2">
+    <span>Read More</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></div></a></div></div><div class="py-8 first:pt-0"><div><h2 class="!mt-0 !mb-1"><a href="/posts/make-an-rss-feed-with-sveltekit">Make an RSS Feed for your SvelteKit Project</a></h2>
+    <time>August 8, 2021</time>
+    
+    </div>
+  <div><!-- HTML_TAG_START --><p>The indie web is alive and well and there are more and more people taking control and owning their online presence and also how they consume other content. One way to help consumers of your site know that there is new content available is by making your content available via an RSS feed.</p><!-- HTML_TAG_END --></div>
+  <div class="flex justify-end w-full"><a href="/posts/make-an-rss-feed-with-sveltekit" class="block px-3 py-1 !text-gray-800 dark:!text-gray-300 dark:!text-opacity-90 bg-gray-300 dark:bg-gray-800 rounded-md !no-underline"><div class="flex items-center space-x-2">
+    <span>Read More</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></div></a></div></div></div></div></main></div></div>
+
+
+
+			
+		</div>
+
+    <!-- this fixes a bug in chrome where animations trigger from unstyled to styled content on page load -->
+    <!-- https://stackoverflow.com/a/42969257/6342734 -->
+    <!-- prettier-ignore -->
+    <script> </script>
+  </body>
+</html>
