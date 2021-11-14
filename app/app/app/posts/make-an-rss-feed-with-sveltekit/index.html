@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Make an RSS Feed for your SvelteKit Project</title><link rel="icon" href="/VENS/favicon.png" data-svelte="svelte-a389yn"><meta name="description" content="The indie web is alive and well and there are more and more people\ntaking control and owning their online presence and also how they\nconsume other content. One way to help consumers of your site know\nthat there is new content available is by making your content\navailable via an RSS feed." data-svelte="svelte-og4ek2"><meta name="author" content="Ven Studios" data-svelte="svelte-og4ek2"><meta property="og:url" content="https://yourdomain.com/make-an-rss-feed-with-sveltekit" data-svelte="svelte-og4ek2"><meta property="og:type" content="website" data-svelte="svelte-og4ek2"><meta property="og:title" content="Make an RSS Feed for your SvelteKit Project" data-svelte="svelte-og4ek2"><meta property="og:description" content="The indie web is alive and well and there are more and more people\ntaking control and owning their online presence and also how they\nconsume other content. One way to help consumers of your site know\nthat there is new content available is by making your content\navailable via an RSS feed." data-svelte="svelte-og4ek2"><meta property="og:image" content="https://og-image.vercel.app/**Make%20an%20RSS%20Feed%20for%20your%20SvelteKit%20Project**?theme=light&amp;md=1&amp;fontSize=100px&amp;images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg" data-svelte="svelte-og4ek2"><meta name="twitter:card" content="summary_large_image" data-svelte="svelte-og4ek2"><meta property="twitter:domain" content="https://yourdomain.com" data-svelte="svelte-og4ek2"><meta property="twitter:url" content="https://yourdomain.com/make-an-rss-feed-with-sveltekit" data-svelte="svelte-og4ek2"><meta name="twitter:title" content="Make an RSS Feed for your SvelteKit Project" data-svelte="svelte-og4ek2"><meta name="twitter:description" content="The indie web is alive and well and there are more and more people\ntaking control and owning their online presence and also how they\nconsume other content. One way to help consumers of your site know\nthat there is new content available is by making your content\navailable via an RSS feed." data-svelte="svelte-og4ek2"><meta name="twitter:image" content="https://og-image.vercel.app/**Make%20an%20RSS%20Feed%20for%20your%20SvelteKit%20Project**?theme=light&amp;md=1&amp;fontSize=100px&amp;images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg" data-svelte="svelte-og4ek2">
+
+		
+
+		<link rel="modulepreload" href="/VENS/app/start-c116a043.js">
+		<link rel="modulepreload" href="/VENS/app/chunks/vendor-2ff90f39.js">
+		<link rel="modulepreload" href="/VENS/app/chunks/paths-28a87002.js">
+		<link rel="modulepreload" href="/VENS/app/pages/__layout.svelte-f141b784.js">
+		<link rel="modulepreload" href="/VENS/app/chunks/info-844534dd.js">
+		<link rel="modulepreload" href="/VENS/app/pages/posts/[slug].svelte-77099382.js">
+		<link rel="modulepreload" href="/VENS/app/chunks/get-posts-e96e0dff.js">
+		<link rel="stylesheet" href="/VENS/app/assets/start-d977ffc4.css">
+		<link rel="stylesheet" href="/VENS/app/assets/pages/__layout.svelte-09a93f09.css">
+
+		<script type="module">
+			import { start } from "/VENS/app/start-c116a043.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"/VENS","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/VENS/app/pages/__layout.svelte-f141b784.js"),
+						import("/VENS/app/pages/posts/[slug].svelte-77099382.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "\u002Fposts\u002Fmake-an-rss-feed-with-sveltekit",
+						query: new URLSearchParams(""),
+						params: {slug:"make-an-rss-feed-with-sveltekit"}
+					}
+				}
+			});
+		</script>
+  </head>
+  <body class="transition-colors duration-100 bg-gray-100 dark:bg-gray-900">
+    <div id="svelte">
+
+
+
+
+<div class="flex flex-col min-h-screen"><div class="mx-auto flex flex-col md:flex-row flex-grow w-full"><div class="flex h-16 px-4 py-2 justify-between items-center md:hidden"><h1 class="text-2xl font-bold text-gray-800 dark:text-white"><a href="/VENS/">Ven Studios</a></h1>
+  <div class="flex h-16 px-4 py-2 justify-between items-center"><h1 class="text-md px-4 font-bold text-gray-800 dark:text-white"><a href="/VENS/about">About</a>
+      </h1><h1 class="text-md px-4 font-bold text-gray-800 dark:text-white"><a href="/VENS/projects">Projects</a>
+      </h1></div></div>
+
+<div class="px-4 py-2 items-center hidden flex-col bg-black justify-start md:flex"><h1 class="text-2xl font-bold text-gray-800 dark:text-white flex flex-nowrap"><a div class="whitespace-nowrap" href="/VENS/">Ven Studios</a></h1>
+  <div class="flex flex-col h-16 pt-6 justify-between w-full"><h1 class="text-md font-bold text-gray-800 dark:text-white"><a href="/VENS/about">About</a>
+      </h1><h1 class="text-md font-bold text-gray-800 dark:text-white"><a href="/VENS/projects">Projects</a>
+      </h1></div></div>
+    <main class="flex flex-col w-full flex-grow prose prose-sm sm:prose lg:prose-lg dark:prose-dark">
+
+<article><h1 class="!mt-0 !mb-1">Make an RSS Feed for your SvelteKit Project</h1>
+  <div><time datetime="2021-08-08T04:00:00.000Z">August 8, 2021</time>
+    •
+    <span>5 min read</span></div>
+  <p>The indie web is alive and well and there are more and more people
+taking control and owning their online presence and also how they
+consume other content. One way to help consumers of your site know
+that there is new content available is by making your content
+available via an RSS feed.</p>
+<p>ℹ️ This is a contribution post from <a href="https://scottspence.com/posts/make-an-rss-feed-with-sveltekit/" rel="nofollow">scottspence.com</a></p>
+<p>I made an RSS feed for my <a href="https://scottspence.com/posts" rel="nofollow">blog</a> using SvelteKit routes. I did this
+much like the <a href="https://scottspence.com/posts/dynamic-sitemap-generation-with-nextjs-and-sanity" rel="nofollow">Sitemap Generation for Dynamic Routes In NextJS with
+the Sanity Client</a> post I did back in February.</p>
+<h2 id="rss-on-scottspencecom"><a href="#rss-on-scottspencecom">RSS on <a href="https://scottspence.com" rel="nofollow"><code>scottspence.com</code></a></a></h2>
+<p>As I mentioned already as my blog is a SvelteKit project I can use the
+SvelteKit <a href="https://kit.svelte.dev/docs#routing-endpoints" rel="nofollow">routing endpoints</a> to define the data type I want returned
+from that endpoint.</p>
+<p>RSS feeds are expected in XML format and I want my endpoint to be
+<a href="https://scottspence.com/rss.xml" rel="nofollow"><code>https://scottspence.com/rss.xml</code></a> so I’ve defined a file in my
+routes folder called <code>rss.xml.js</code> this is located in the routes folder
+of the project, so the full path would be <code>src/routes/rss.xml.js</code>.</p>
+<h2 id="rss-route"><a href="#rss-route">RSS route</a></h2>
+<p>For this guide I’ll using the great <a href="https://github.com/mattjennings/sveltekit-blog-template" rel="nofollow">template from Matt Jennings</a>
+(which this blog is based off of) as an example of how to do it.</p>
+<p>I’m using the template as it’s the most basic example to use and there
+won’t be any additional project specific routes that will need to be
+taken into account.</p>
+<p>Let’s take a quick look at how the project is structured:</p>
+<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash">sveltekit-blog-template/
+├─ posts/
+├─ src/
+│ └─ lib/
+│ └─ routes/
+│ │ └─ posts/
+│ │   └─ <span class="token punctuation">[</span>slug<span class="token punctuation">]</span>.svelte/
+│ │─ __layout.svelte/
+│ └─ index.svelte/
+<span class="token punctuation">..</span>.rest of the files</code><!-- HTML_TAG_END --></pre>
+<p>I’ve left some of the filing structure that isn’t relevant right now.</p>
+<p>For now I want to focus on the routes folder as this is where I’ll be
+creating the RSS page.</p>
+<h2 id="clone-the-project"><a href="#clone-the-project">Clone the project</a></h2>
+<p>Ok, let’s get to work, I’ll start by cloning the project and changing
+directory into the newly cloned project. Then I’ll install the
+dependencies and run the dev server:</p>
+<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token comment"># using SSH</span>
+<span class="token function">git</span> clone git@github.com:mattjennings/sveltekit-blog-template
+<span class="token comment"># using HTTPS</span>
+<span class="token function">git</span> clone https://github.com/mattjennings/sveltekit-blog-template
+<span class="token builtin class-name">cd</span> sveltekit-blog-template
+<span class="token function">npm</span> i
+<span class="token function">npm</span> run dev</code><!-- HTML_TAG_END --></pre>
+<p>Now Matt’s awesome template is up and running on the default port on
+<code>localhost:3000</code>. If I go to <code>localhost:3000/rss.xml</code> I get a 404.
+This is because I’ve not made that route yet.</p>
+<h2 id="add-the-rss-route"><a href="#add-the-rss-route">Add the RSS route</a></h2>
+<p>Now to create the endpoint for where the RSS feed will be located:</p>
+<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token function">touch</span> src/routes/rss.xml.js</code><!-- HTML_TAG_END --></pre>
+<p>Now if I go to <code>localhost:3000/rss.xml</code> I get a 404.</p>
+<p>In the <code>rss.xml.js</code> file I’ll create a <code>get()</code> function which will need
+to return the RSS XML and the headers for the endpoint, the XML is
+inside <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals" rel="nofollow">template literals</a> so I can add in the dynamic data I want to
+return later in this post:</p>
+<pre class="language-js"><!-- HTML_TAG_START --><code class="language-js"><span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">const</span> headers <span class="token operator">=</span> <span class="token punctuation">&#123;</span>
+    <span class="token string">'Cache-Control'</span><span class="token operator">:</span> <span class="token string">'max-age=0, s-maxage=3600'</span><span class="token punctuation">,</span>
+    <span class="token string">'Content-Type'</span><span class="token operator">:</span> <span class="token string">'application/xml'</span>
+  <span class="token punctuation">&#125;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">&#123;</span>
+    headers<span class="token punctuation">,</span>
+    body<span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">&#96;</span><span class="token string">&lt;rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">&lt;/rss></span><span class="token template-punctuation string">&#96;</span></span>
+  <span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<p>In the <code>headers</code> I’m setting the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control#expiration" rel="nofollow">expiration</a> to an hour with
+<code>s-maxage</code> and for the <code>body</code> adding in the XML heading. You can check
+out the <a href="https://validator.w3.org/feed/docs/rss2.html" rel="nofollow">W3C Feed Validation Service</a> for more detail on what’s needed
+here.</p>
+<p>Now if I go check <code>localhost:3000/rss.xml</code> I get the beginning of my
+RSS feed.</p>
+<h2 id="add-ltchannelgt-required-elements"><a href="#add-ltchannelgt-required-elements">Add <code>&lt;channel&gt;</code> required elements</a></h2>
+<p>Now to add in the <code>&lt;channel&gt;</code> element with the required <code>&lt;title&gt;</code>,
+<code>&lt;link&gt;</code> and <code>&lt;description&gt;</code> elements. In Matt’s template there’s an
+<code>info.js</code> file that contains the project <code>name</code> and <code>website</code> links.
+I’ll import these and hardcode in a description for now.</p>
+<pre class="language-js"><!-- HTML_TAG_START --><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">&#123;</span> name<span class="token punctuation">,</span> website <span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">'$lib/info'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">const</span> headers <span class="token operator">=</span> <span class="token punctuation">&#123;</span>
+    <span class="token string">'Cache-Control'</span><span class="token operator">:</span> <span class="token string">'max-age=0, s-maxage=3600'</span><span class="token punctuation">,</span>
+    <span class="token string">'Content-Type'</span><span class="token operator">:</span> <span class="token string">'application/xml'</span>
+  <span class="token punctuation">&#125;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">&#123;</span>
+    headers<span class="token punctuation">,</span>
+    body<span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">&#96;</span><span class="token string">&lt;rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
+      &lt;channel>
+        &lt;title></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>name<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">&lt;/title>
+        &lt;link></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>website<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">&lt;/link>
+        &lt;description>A blog built with SvelteKit about tech and stuff!&lt;/description>
+      &lt;/channel>
+    &lt;/rss></span><span class="token template-punctuation string">&#96;</span></span>
+  <span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<h2 id="add-posts-for-the-rss-feed"><a href="#add-posts-for-the-rss-feed">Add posts for the RSS feed</a></h2>
+<p>Now I’m going to need to add the posts to the RSS feed. I’m going to
+copy the code used to source the posts from <code>src/routes/index.svelte</code>
+and add it to the <code>src/lib</code> folder as <code>get-posts.js</code>.</p>
+<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token comment"># create the file</span>
+<span class="token function">touch</span> src/lib/get-posts.js</code><!-- HTML_TAG_END --></pre>
+<p>The code for get posts is:</p>
+<pre class="language-js"><!-- HTML_TAG_START --><code class="language-js"><span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">getPosts</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">const</span> posts <span class="token operator">=</span> <span class="token keyword">await</span> Object<span class="token punctuation">.</span><span class="token function">entries</span><span class="token punctuation">(</span><span class="token keyword">import</span><span class="token punctuation">.</span>meta<span class="token punctuation">.</span><span class="token function">globEager</span><span class="token punctuation">(</span><span class="token string">'/posts/**/*.md'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token comment">// get post metadata</span>
+    <span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">[</span><span class="token punctuation">,</span> post<span class="token punctuation">]</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> post<span class="token punctuation">.</span>metadata<span class="token punctuation">)</span>
+    <span class="token comment">// sort by date</span>
+    <span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>a<span class="token punctuation">.</span>date <span class="token operator">&lt;</span> b<span class="token punctuation">.</span>date <span class="token operator">?</span> <span class="token number">1</span> <span class="token operator">:</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+  <span class="token keyword">return</span> posts
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<p>I’ll now import that into the <code>rss.xml.js</code> file so I can map over the
+contents for each <code>&lt;item&gt;</code> in the RSS feed.</p>
+<p>First up though, rather than have the return statement all cluttered
+up with the generated XML I’ll break this into it’s own function:</p>
+<pre class="language-js"><!-- HTML_TAG_START --><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">&#123;</span> getPosts <span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">'$lib/get-posts'</span>
+<span class="token keyword">import</span> <span class="token punctuation">&#123;</span> name<span class="token punctuation">,</span> website <span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">'$lib/info'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">const</span> posts <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">getPosts</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token keyword">const</span> body <span class="token operator">=</span> <span class="token function">xml</span><span class="token punctuation">(</span>posts<span class="token punctuation">)</span>
+
+  <span class="token keyword">const</span> headers <span class="token operator">=</span> <span class="token punctuation">&#123;</span>
+    <span class="token string">'Cache-Control'</span><span class="token operator">:</span> <span class="token string">'max-age=0, s-maxage=3600'</span><span class="token punctuation">,</span>
+    <span class="token string">'Content-Type'</span><span class="token operator">:</span> <span class="token string">'application/xml'</span>
+  <span class="token punctuation">&#125;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">&#123;</span>
+    headers<span class="token punctuation">,</span>
+    body
+  <span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">xml</span> <span class="token operator">=</span> <span class="token punctuation">(</span>
+  <span class="token parameter">posts</span>
+<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token template-string"><span class="token template-punctuation string">&#96;</span><span class="token string">&lt;rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
+  &lt;channel>
+    &lt;title></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>name<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">&lt;/title>
+    &lt;link></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>website<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">&lt;/link>
+    &lt;description>A blog built with SvelteKit about tech and stuff!&lt;/description>
+  &lt;/channel>
+&lt;/rss></span><span class="token template-punctuation string">&#96;</span></span></code><!-- HTML_TAG_END --></pre>
+<p>Now it’s a case of mapping over the posts and creating the XML for
+each post in posts. I’ll do that in the template using tags <code>${}</code> and
+mapping over the <code>posts</code> variable returned from <code>getPosts</code>.</p>
+<p>Here’s the complete file:</p>
+<pre class="language-js"><!-- HTML_TAG_START --><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">&#123;</span> getPosts <span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">'$lib/get-posts'</span>
+<span class="token keyword">import</span> <span class="token punctuation">&#123;</span> name<span class="token punctuation">,</span> website <span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">'$lib/info'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">const</span> posts <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">getPosts</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token keyword">const</span> body <span class="token operator">=</span> <span class="token function">xml</span><span class="token punctuation">(</span>posts<span class="token punctuation">)</span>
+
+  <span class="token keyword">const</span> headers <span class="token operator">=</span> <span class="token punctuation">&#123;</span>
+    <span class="token string">'Cache-Control'</span><span class="token operator">:</span> <span class="token string">'max-age=0, s-maxage=3600'</span><span class="token punctuation">,</span>
+    <span class="token string">'Content-Type'</span><span class="token operator">:</span> <span class="token string">'application/xml'</span>
+  <span class="token punctuation">&#125;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">&#123;</span>
+    headers<span class="token punctuation">,</span>
+    body
+  <span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">xml</span> <span class="token operator">=</span> <span class="token punctuation">(</span>
+  <span class="token parameter">posts</span>
+<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token template-string"><span class="token template-punctuation string">&#96;</span><span class="token string">&lt;rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
+  &lt;channel>
+    &lt;title></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>name<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">&lt;/title>
+    &lt;link></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>website<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">&lt;/link>
+    &lt;description>A blog built with SvelteKit about tech and stuff!&lt;/description>
+    </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>posts
+      <span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>
+        <span class="token punctuation">(</span><span class="token parameter">post</span><span class="token punctuation">)</span> <span class="token operator">=></span>
+          <span class="token template-string"><span class="token template-punctuation string">&#96;</span><span class="token string">
+        &lt;item>
+          &lt;title></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>post<span class="token punctuation">.</span>title<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">&lt;/title>
+          &lt;description>A blog built with SvelteKit about tech and stuff!&lt;/description>
+          &lt;link></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>website<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">/posts/</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>post<span class="token punctuation">.</span>slug<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">/&lt;/link>
+          &lt;pubDate></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span><span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span>post<span class="token punctuation">.</span>date<span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">&lt;/pubDate>
+          &lt;content:encoded></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>post<span class="token punctuation">.</span>previewHtml<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string"> 
+            &lt;div style="margin-top: 50px; font-style: italic;">
+              &lt;strong>
+                &lt;a href="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>website<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">/posts/</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>post<span class="token punctuation">.</span>slug<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">">
+                  Keep reading
+                &lt;/a>
+              &lt;/strong>  
+            &lt;/div>
+          &lt;/content:encoded>
+        &lt;/item>
+      </span><span class="token template-punctuation string">&#96;</span></span>
+      <span class="token punctuation">)</span>
+      <span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">
+  &lt;/channel>
+&lt;/rss></span><span class="token template-punctuation string">&#96;</span></span></code><!-- HTML_TAG_END --></pre>
+<p>You’ll notice I’ve added some extra markup for <code>&lt;content:encoded&gt;</code> and
+this uses Matt’s handy package <code>remark-preview</code> to allow me to add
+HTML to the RSS feed.</p>
+<p>There’s also a link to take the reader to the site’s post via the
+<code>post.slug</code> with some inline styling.</p>
+<h2 id="conclusion"><a href="#conclusion">Conclusion</a></h2>
+<p>Now if I go to <code>localhost:3000/rss.xml</code> I get a very reasonable RSS
+feed that can be used to syndicate to other sites and RSS readers.</p>
+<p>Although this is a very specific example I hope it’s helped you
+understand how you could do something similar with your own SvelteKit
+project.</p>
+</article>
+
+<div class="pt-12 flex justify-between"><div></div>
+  <a href="/VENS/posts/make-a-sitemap-with-sveltekit" class="block px-3 py-1 !text-gray-800 dark:!text-gray-300 dark:!text-opacity-90 bg-gray-300 dark:bg-gray-800 rounded-md !no-underline"><div class="flex items-center space-x-2">
+    <span>Make a Sitemap with Sveltekit</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></div></a></div></main></div></div>
+
+
+
+			
+		</div>
+
+    <!-- this fixes a bug in chrome where animations trigger from unstyled to styled content on page load -->
+    <!-- https://stackoverflow.com/a/42969257/6342734 -->
+    <!-- prettier-ignore -->
+    <script> </script>
+  </body>
+</html>
